@@ -7,29 +7,30 @@
 		<meta name="author" content="Generation Brasil">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		<title>Meu Perfil</title>
+        <link rel="stylesheet" href="assets/css/style.css">
 	</head>
 	<body>
-		<header>
-			<div id="header_content">
-				<div id="titulo">
-					<h1>Vitoria Camilly</h1>
+            <header>
+                <div id="header_content" class="flex">
+                    <div id="titulo">
+                        <h1>Vitoria Camilly</h1>
+                    </div>
+                    <div id="menu">
+                        <nav>
+                            <ul id="menu">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="contato.html">Contato</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-				<div id="menu">
-					<nav>
-						<ul id="menu">
-							<li>
-								<a href="index.html"> Home </a>
-							</li>
-							<li>
-								<a href="contato.html"> Contato </a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
+            </header>
 		<main>
-             <section id="contact">
+             <section id="contact" class="flex">
                 <form action="#" method="submit" id="formulario">
                     <label for="nome">Nome: </label>
 					<input
@@ -71,9 +72,9 @@
 					</textarea>
 					<button type="submit">Enviar</button>
                 </form>
-                <article id="mapa">
-                    <p> Parque Villa Lobos, Sao Paulo - SP</p>
-                    <p> Sempre que posso estou por la passeando.</p>
+                <article id="mapa" class=" flex_start">
+                    <p>Parque Villa Lobos Sao Paulo - SP</p>
+                    <p>Sempre que posso estou passeando por lá.</p>
                     <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14630.464160172403!2d-46.73565409875509!3d-23.54630846237009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56fa971a5e7d%3A0x6f6b8e0ec9daadd1!2sParque%20Villa-Lobos!5e0!3m2!1spt-BR!2sbr!4v1747848033972!5m2!1spt-BR!2sbr" 
                     width="600" 
@@ -88,19 +89,17 @@
 		</main>
 		<footer>
             <section id="redes_sociais">
-                <a href="www.linkedin.com/in/vitoria-camilly">
-                    <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-                </a>
-                <a href="https://github.com/Vitoriacmlly">
-                    <img src="assets/img/github.svg" alt="Github" />
-                </a>
-                <a href="https://www.instagram.com/aypipinha?igsh=MXJoNDg1dDIydTR4MQ==">
-                    <img src="assets/img/instagram.svg" alt="Instagram" />
-                </a>
-            </section>
-			<h3>
-				Feito com 🧡 por Vitoria Camilly - 2025
-			</h3>
+				<a href="www.linkedin.com/in/vitoria-camilly">
+					<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+				</a>
+				<a href="https://github.com/Vitoriacmlly">
+					<img src="assets/img/github.svg" alt="Github" class="social_icon"/>
+				</a>
+				<a href="https://www.instagram.com/aypipinha?igsh=MXJoNDg1dDIydTR4MQ==">
+					<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
+				</a>
+			</section>
+			<h3>Feito com 🧡 por Vitoria Camilly - 2025</h3>
 		</footer>
 	</body>
 </html>
